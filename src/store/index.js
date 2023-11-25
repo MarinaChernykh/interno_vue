@@ -24,7 +24,7 @@ export default new Vuex.Store({
                         image: 'project_detail_img.jpg'
                     }
                 ])
-            }, 2000);
+            }, 200);
         }
     },
     getters: {

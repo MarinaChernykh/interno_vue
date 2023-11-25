@@ -3,13 +3,13 @@
     <img :src="require('../../assets/' + project.img)" :alt="project.title" class="project__image">
     <div class="project__content">
         <div class="project__info">
-            <a href="#" class="project__title">{{ project.title }}</a>
+            <router-link to="/project/detail" class="project__title">{{ project.title }}</router-link>
             <p class="project__category">{{ project.category }}</p>
         </div>
-        <a href="#" class="project__link"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+        <router-link to="/project/detail" class="project__link"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
             <circle cx="26" cy="26.267" r="26" fill="#F4F0EC"/>
             <path d="M23.7714 32.9527L29.7143 26.267L23.7714 19.5813" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-        </a>
+        </router-link>
     </div>
   </section>
 </template>

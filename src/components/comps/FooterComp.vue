@@ -10,9 +10,9 @@
       </div>
       <div class="footer__navigation">
           <p class="footer__nav-title">Pages</p>
-          <a href="index.html" class="footer__nav-text">Home</a>
-          <a href="#" class="footer__nav-text">Project</a>
-          <a href="blog.html" class="footer__nav-text">Blog</a>
+          <router-link to="/" class="footer__nav-text">Home</router-link>
+          <router-link to="/project" class="footer__nav-text">Project</router-link>
+          <router-link to="/blog" class="footer__nav-text">Blog</router-link>
       </div>
       <div class="footer__contacts">
           <p class="footer__contacts-title">Contact</p>

@@ -19,7 +19,7 @@
 
 
   export default {
-    name: 'ProjectPage',
+    name: 'ProjectDetail',
     components: {
       HeaderComp,
       TopImageComp,

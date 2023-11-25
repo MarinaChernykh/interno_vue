@@ -7,56 +7,56 @@
             <img src="../../assets/project_1.jpg" alt="Кухня" class="projects__card-image projects__card-image__item1">
             <div class="projects__card-description">
                 <div class="projects__card-text-content">
-                    <a href="#" class="projects__card-title">Modern Kitchan</a>
+                    <router-link to="/project/detail" class="projects__card-title">Modern Kitchan</router-link>
                     <p class="projects__card-text">Decor / Artchitecture</p>
                 </div>
-                <a href="#" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                <router-link to="/project/detail" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
                     <circle cx="35" cy="35" r="35" fill="#F4F0EC"/>
                     <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                </a>
+                </router-link>
             </div>
         </div>
         <div class="projects__card">
             <img src="../../assets/project_2.jpg" alt="Прихожая" class="projects__card-image projects__card-image__item2">
             <div class="projects__card-description">
                 <div class="projects__card-text-content">
-                    <a href="#" class="projects__card-title">Modern Kitchan</a>
+                    <router-link to="/project/detail" class="projects__card-title">Modern Kitchan</router-link>
                     <p class="projects__card-text">Decor / Artchitecture</p>
                 </div>
-                <a href="#" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                <router-link to="/project/detail" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
                     <circle cx="35" cy="35" r="35" fill="#F4F0EC"/>
                     <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                </a>
+                </router-link>
             </div>
         </div>
         <div class="projects__card">
             <img src="../../assets/project_3.jpg" alt="Кабинет" class="projects__card-image projects__card-image__item3">
             <div class="projects__card-description">
                 <div class="projects__card-text-content">
-                    <a href="#" class="projects__card-title">Modern Kitchan</a>
+                    <router-link to="/project/detail" class="projects__card-title">Modern Kitchan</router-link>
                     <p class="projects__card-text">Decor / Artchitecture</p>
                 </div>
-                <a href="#" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                <router-link to="/project/detail" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
                     <circle cx="35" cy="35" r="35" fill="#F4F0EC"/>
                     <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                </a>
+                </router-link>
             </div>
         </div>
         <div class="projects__card">
             <img src="../../assets/project_4.jpg" alt="Гостиная" class="projects__card-image projects__card-image__item4">
             <div class="projects__card-description">
                 <div class="projects__card-text-content">
-                    <a href="#" class="projects__card-title">Modern Kitchan</a>
+                    <router-link to="/project/detail" class="projects__card-title">Modern Kitchan</router-link>
                     <p class="projects__card-text">Decor / Artchitecture</p>
                 </div>
-                <a href="#" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+                <router-link to="/project/detail" class="projects__card-link"><svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
                     <circle cx="35" cy="35" r="35" fill="#F4F0EC"/>
                     <path d="M32 44L40 35L32 26" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                   </svg>
-                </a>
+                </router-link>
             </div>
         </div>
     </div>

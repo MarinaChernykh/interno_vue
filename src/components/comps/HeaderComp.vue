@@ -1,20 +1,20 @@
 <template>
     <header class="header center">
       <div class="header__logo">
-        <a class="header__logo-link" href="index.html">
+        <router-link to="/" class="header__logo-link">
             <img src="../../assets/logo.svg" alt="Логотип сайта" class="header__logo-img"/>
-        </a>
+        </router-link>
       </div>
       <nav class="nav">
         <ul class="nav__items-list">
           <li class="nav__item">
-            <a href="index.html" class="nav__item-link">Home</a>
+            <router-link to="/" class="nav__item-link">Home</router-link>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__item-link">Project</a>
+            <router-link to="/project" class="nav__item-link">Project</router-link>
           </li>
           <li class="nav__item">
-            <a href="blog.html" class="nav__item-link">Blog</a>
+            <router-link to="/blog" class="nav__item-link">Blog</router-link>
           </li>
         </ul>
       </nav>

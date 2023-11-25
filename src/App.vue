@@ -1,17 +1,14 @@
 <template>
   <div id="app">
-    <ProjectDetail/>
+    <router-view />
   </div>
 </template>
 
 <script>
-import ProjectDetail from './components/pages/ProjectDetail.vue'
-
-
 export default {
   name: 'App',
-  components: {
-    ProjectDetail
+  created() {
+    this.$router.push({name: 'home'})
   }
 }
 </script>
