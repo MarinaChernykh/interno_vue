@@ -1,16 +1,16 @@
 <template>
-    <div id="blog">
-      <HeaderComp/>
-      <section class="top-blog">
-        <TopImageComp imageLink="project_main.jpg"/>
-        <TopTitleComp title="Our Project" subtitle="Home / Project"/>
-      </section>
-      <section>
-        <ProjectsListBlock :projects="projects"/>
-      </section>
-      <FooterComp/>
-    </div>
-  </template>
+  <div id="blog">
+    <HeaderComp/>
+    <section class="top-blog">
+      <TopImageComp imageLink="project_main.jpg"/>
+      <TopTitleComp title="Our Project" subtitle="Home / Project"/>
+    </section>
+    <section>
+      <ProjectsListBlock :projects="projects"/>
+    </section>
+    <FooterComp/>
+  </div>
+</template>
 
 <script>
 import HeaderComp from '../comps/HeaderComp.vue'

@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <ProjectPage/>
+    <ProjectDetail/>
   </div>
 </template>
 
 <script>
-import ProjectPage from './components/pages/ProjectPage.vue'
+import ProjectDetail from './components/pages/ProjectDetail.vue'
 
 
 export default {
   name: 'App',
   components: {
-    ProjectPage
+    ProjectDetail
   }
 }
 </script>
