@@ -15,10 +15,10 @@
                 </p>
                 <div class="latest__bottom">
                     <p class="latest__date">26 December, 2022 </p>
-                    <a href="#" class="latest__link"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
+                    <router-link to="/blog/detail" class="latest__link"><svg xmlns="http://www.w3.org/2000/svg" width="52" height="53" viewBox="0 0 52 53" fill="none">
                         <circle cx="26" cy="26.5" r="26" fill="#F4F0EC"/>
                         <path d="M23.771 33.1855L29.7139 26.4998L23.771 19.8141" stroke="#292F36" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                        </svg></a>
+                        </svg></router-link>
                 </div>
             </div>
         </div>

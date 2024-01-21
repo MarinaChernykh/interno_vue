@@ -4,15 +4,15 @@
           <img src="../../assets/logo.svg" alt="Логотип" class="footer__logo">
           <p class="footer__company-text">It is a long established fact that a reader will be distracted lookings.</p>
           <div class="footer__social">
-              <a href="#" class="footer__social-link"><img src="../../assets/twitter.svg" alt="twitter"></a>
-              <a href="#" class="footer__social-link"><img src="../../assets/linkedin.svg" alt="linkedin"></a>
+              <a href="https://twitter.com/" class="footer__social-link" target="_blank"><img src="../../assets/twitter.svg" alt="twitter"></a>
+              <a href="https://www.linkedin.com/" class="footer__social-link" target="_blank"><img src="../../assets/linkedin.svg" alt="linkedin"></a>
           </div>
       </div>
       <div class="footer__navigation">
           <p class="footer__nav-title">Pages</p>
-          <a href="index.html" class="footer__nav-text">Home</a>
-          <a href="#" class="footer__nav-text">Project</a>
-          <a href="blog.html" class="footer__nav-text">Blog</a>
+          <router-link to="/" class="footer__nav-text">Home</router-link>
+          <router-link to="/project" class="footer__nav-text">Project</router-link>
+          <router-link to="/blog" class="footer__nav-text">Blog</router-link>
       </div>
       <div class="footer__contacts">
           <p class="footer__contacts-title">Contact</p>

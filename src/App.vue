@@ -1,17 +1,14 @@
 <template>
   <div id="app">
-    <BlogDetailsPage/>
+    <router-view />
   </div>
 </template>
 
 <script>
-import BlogDetailsPage from './components/pages/BlogDetailsPage.vue'
-
-
 export default {
   name: 'App',
-  components: {
-    BlogDetailsPage
+  created() {
+    this.$router.push({name: 'home'})
   }
 }
 </script>
