@@ -7,9 +7,14 @@
         There are many variations of the passages of lorem Ipsum
         fromavailable, majority.
       </p>
-      <a href="#" class="top__button">Get Started  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+      <router-link to="/project" class="top__button">
+        Get Started  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
           <path d="M1 8.43542L14.7232 8.29857M9.61818 1.91138L16.1412 8.43436L9.48677 15.0887" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
-        </svg></a>
+        </svg>
+      </router-link>
+      <!-- <a href="#" class="top__button">Get Started  <svg xmlns="http://www.w3.org/2000/svg" width="18" height="17" viewBox="0 0 18 17" fill="none">
+          <path d="M1 8.43542L14.7232 8.29857M9.61818 1.91138L16.1412 8.43436L9.48677 15.0887" stroke="#CDA274" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"/>
+        </svg></a> -->
     </div>
   </section>
 </template>
