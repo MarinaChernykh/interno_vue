@@ -1,4 +1,16 @@
-# interno_project_vue
+# Проект interno
+
+# Доступен по ссылке ниже
+https://marinachernykh.github.io/
+
+## О проекте
+Проект о дизайне, интерьерах и красивом образе жизни.
+
+## Технологии
+Vue 2
+
+
+
 
 ## Project setup
 ```
